@@ -1,6 +1,6 @@
 import useThemeSwitcher from "../../hooks/useThemeSwitcher";
 import { FiArrowDownCircle } from "react-icons/fi";
-import developerLight from "../../images/developer.svg";
+import ben from "../../images/ben.png";
 import developerDark from "../../images/developer-dark.svg";
 import { motion } from "framer-motion";
 
@@ -35,9 +35,10 @@ const AppBanner = () => {
             duration: 0.9,
             delay: 0.2,
           }}
-          className="font-general-regular mt-4 text-1xl md:text-xl lg:text-2xl xl:text-3xl text-center sm:text-left leading-normal text-gray-500 dark:text-gray-200"
+          className="font-regular mt-4 text-1xl md:text-xl lg:text-2xl xl:text-2xl text-center sm:text-left leading-normal text-gray-500 dark:text-gray-200"
         >
-          A Frontend Developer,Graphic Designer and Cyber-security ethusiatist
+          A Frontend Developer,Graphic Designer,photographer and Cyber-security
+          ethusiatist
         </motion.p>
         <motion.div
           initial={{ opacity: 0 }}
@@ -66,10 +67,10 @@ const AppBanner = () => {
         initial={{ opacity: 0, y: -180 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ ease: "easeInOut", duration: 0.9, delay: 0.2 }}
-        className="w-full sm:w-2/3 text-right float-right mt-8 sm:mt-0"
+        className="w-full sm:w-2/3 mt-8 sm:mt-0 flex justify-end mr-3"
       >
         <img
-          src={activeTheme === "dark" ? developerLight : developerDark}
+          src={activeTheme === "dark" ? ben : developerDark}
           alt="Developer"
         />
       </motion.div>
