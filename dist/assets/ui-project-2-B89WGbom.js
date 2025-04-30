@@ -1,0 +1,1 @@
+const s="/assets/web-project-1-BMYp8rOh.jpg",e="/assets/web-project-2-Z5HZlOqa.jpg",a="/assets/mobile-project-1--nPcju_C.jpg",t="/assets/mobile-project-2-DQz73pV8.jpg",p="/assets/ui-project-1-YU2jpRqx.jpg",o="/assets/ui-project-2-Dy_D1ZsD.jpg";export{e as I,t as a,p as b,o as c,a as d,s as e};
