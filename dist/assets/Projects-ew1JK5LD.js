@@ -1,0 +1,1 @@
+import{j as r}from"./index-BuOuliWK.js";import{P as s,a as o}from"./ProjectsGrid-Bt93IGqc.js";import"./ui-project-2-B89WGbom.js";const i=()=>r.jsx(s,{children:r.jsx("div",{className:"container mx-auto",children:r.jsx(o,{})})});export{i as default};
